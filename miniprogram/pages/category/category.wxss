@@ -1,0 +1,127 @@
+page {
+  background: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.container {
+  display: flex;
+
+}
+
+/* 顶部搜索栏 */
+.m-searchTop {
+  height: 55rpx;
+  font-size: 27rpx;
+  background-color: #fff;
+  border-radius: 8rpx;
+  border: 1px solid #ccc;
+  width: 95%;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-search {
+  display: inline-block;
+  width: 60rpx;
+  height: 37rpx;
+  vertical-align: top;
+  background-image: url(http://img02.camel.com.cn/image/zw_search.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-right: 9rpx;
+}
+
+.placeholder {
+  color: #d9d9d9;
+}
+
+/* 头部酒分类 */
+.head {
+  width: 100%;
+
+}
+
+.headClass {
+  width: 100%;
+  height: 90rpx;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.dringClass {
+  height: 50rpx;
+  font-size: 26rpx;
+  border-radius: 50rpx;
+  /* background-color: red; */
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  /* color: white; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.headBrand {
+  width: 100%;
+  height: 70rpx;
+  background-color: #fff;
+  display: flex;
+  white-space: nowrap;
+  padding-top: 20rpx;
+
+}
+
+.brandClass {
+  display: inline-block;
+  height: 40rpx;
+  /* border: 1px solid red; */
+  border-radius: 40rpx;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  font-size: 26rpx;
+  line-height: 26rpx;
+  box-sizing: border-box;
+  margin-left: 20rpx;
+  display: flex;
+  align-items: center;
+}
+/* 商品展列区 */
+.body{
+  display: flex;
+  flex-wrap: wrap;
+}
+.goodCard{
+  width: 50%;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  
+}
+.goodCard .goodName{
+  padding: 10rpx;
+  height: 90rpx;
+  overflow: hidden;
+  text-overflow:ellipsis;
+}
+.priceSales{
+  display: flex;
+  justify-content: space-between;
+  padding: 10rpx;
+}
+.priceSales .goodPrice{
+  color: red;
+  font-size: 28rpx;
+}
+.priceSales .goodSales{
+  color: #9c9c9c;
+  font-size: 28rpx;
+}

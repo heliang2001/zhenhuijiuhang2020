@@ -1,0 +1,97 @@
+/**index.wxss**/
+
+page {
+  background: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.container{
+  display: flex;
+
+}
+/* 顶部搜索栏 */
+.m-searchTop{
+  height: 55rpx;
+  font-size: 27rpx;
+  background-color: #fff;
+  border-radius: 8rpx;
+  border: 1px solid #ccc;
+  width: 95%;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-search {
+  display: inline-block;
+  width: 60rpx;
+  height: 37rpx;
+  vertical-align: top;
+  background-image: url(http://img02.camel.com.cn/image/zw_search.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-right: 9rpx;
+}
+.placeholder {
+  color: #d9d9d9;
+}
+
+/* 热销白酒 红酒*/
+.hotGoods{
+  background-color: white;
+  width: 100%;
+}
+.goodsTitle {
+  height: 104rpx;
+  line-height: 104rpx;
+  padding: 0 28rpx;
+  background-color: #fff;
+  box-sizing: border-box;
+  position: relative;
+  border-bottom:1px solid #ccc;
+
+}
+.hotTitle{
+ position: absolute;
+ left:30%; 
+ right:30%; 
+
+}
+.more{
+  position: absolute;
+  right: 10px;
+}
+/* 每个商品卡片 */
+.goodsList{
+  display: flex;
+  flex-wrap: wrap;
+}
+.goodCard{
+  width: 50%;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+  
+}
+.goodCard .goodName{
+  padding: 10rpx;
+  height: 90rpx;
+  overflow: hidden;
+  text-overflow:ellipsis;
+}
+.priceSales{
+  display: flex;
+  justify-content: space-between;
+  padding: 10rpx;
+}
+.priceSales .goodPrice{
+  color: red;
+  font-size: 28rpx;
+}
+.priceSales .goodSales{
+  color: #9c9c9c;
+  font-size: 28rpx;
+}

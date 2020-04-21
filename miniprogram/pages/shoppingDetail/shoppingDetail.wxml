@@ -1,0 +1,71 @@
+<view class="container">
+    <scroll-view scroll-y="{{true}}" class="scroll-view">
+        <!-- 顶部轮播图 -->
+        <swiper style="height:{{loop_image_height}}px" autoplay="{{true}}" indicator-dots="{{true}}" interval="3000" duration="350">
+            <swiper-item>
+                <image src="cloud://test-hll666.7465-test-hll666-1300705075/a96059cc874f4a7adebf98b7978a7ef.jpg" class="loop_image_style"></image>
+            </swiper-item>
+            <swiper-item>
+                <image src="cloud://test-hll666.7465-test-hll666-1300705075/348499d497a338bdcb1c8d71587271c.jpg" class="loop_image_style"></image>
+            </swiper-item>
+        </swiper>
+        <!-- 商品信息 -->
+        <view style="background-color:#F5F5F5;height:1px;width:100%"></view>
+        <view class="good_info">
+            <view class="good_info_name">剑南春姊妹酒百年剑南12浓香型白酒500ml</view>
+            <view class="good_info_other">
+                <view class="good_info_price">￥99.90</view>
+                <view class="good_info_oldPrice">￥158.00</view>
+                <view class="good_info_sales">销量：2595瓶</view>
+            </view>
+            <view class="iconfont iconplus-share,share"></view>
+        </view>
+        <!-- 规格选择栏 -->
+        <view class="choice">
+            <view class="choice-left">选择</view>
+            <view class="choice-more" bindtap="show">
+                <view>规格</view>
+                <view>></view>
+            </view>
+        </view>
+
+        <!-- 商品详情和评论 -->
+        <view class="detail-comment">
+            <view class="detail">商品详情</view>
+            <view class="comment">评论</view>
+        </view>
+        <!-- 详情图片 -->
+        <image class="detailImage" mode="widthFix" src="cloud://test-hll666.7465-test-hll666-1300705075/1.jpg" />
+        <image class="detailImage" mode="widthFix" src="cloud://test-hll666.7465-test-hll666-1300705075/2.jpg" />
+        <image class="detailImage" mode="widthFix" src="cloud://test-hll666.7465-test-hll666-1300705075/3.jpg" />
+        <image class="detailImage" mode="widthFix" src="cloud://test-hll666.7465-test-hll666-1300705075/4.jpg" />
+        <image class="detailImage" mode="widthFix" src="cloud://test-hll666.7465-test-hll666-1300705075/5.jpg" />
+
+        <!-- 规格栏弹窗 -->
+    <!--规格栏弹窗 遮罩层  -->  
+    <view class="shade" hidden="{{flag}}" bindtap="hide">  
+         <!-- 核算内容conts区域  -->  
+        <view class="conts">    
+            <view class="item1">1</view>
+                <view class="item2">2</view>
+                <view class="item3">3</view>
+                <view class="item4">4</view>    
+        </view>     
+    </view>  
+
+    </scroll-view>
+    
+    <!-- 底部购买栏 -->
+    <view class="basket">
+        <view class="shouye">
+            <icon class="iconfont iconziyuan" />
+            <text class="shouye-font">首页</text>
+        </view>
+        <view class="shoucang">
+            <icon class="iconfont iconsoucang" />
+            <text class="shouye-font">收藏</text>
+        </view>
+        <view class="add-to-cart">加入购物车</view>
+        <view class="buy-now">立刻购买</view>
+    </view>
+</view>

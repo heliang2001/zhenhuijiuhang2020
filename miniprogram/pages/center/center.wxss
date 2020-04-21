@@ -1,0 +1,88 @@
+.container{
+    background-color: #f0f0f0;
+}
+.head {
+    height: 300rpx;
+    width: 100%;
+    background: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1587038241251&di=9ba27114eda895864fbed9d034b5313d&imgtype=0&src=http%3A%2F%2Fpic.90sjimg.com%2Fback_pic%2Fqk%2Fback_origin_pic%2F00%2F02%2F29%2Fd10ff10159ec36b3ea8df263222a504a.jpg) no-repeat top center;
+    background-size: 100% 300rpx;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.head image{
+    width: 150rpx;
+    height: 150rpx;
+    border-radius: 50%;
+    margin-right: 15rpx;
+}
+/* 我的订单group */
+.myOrder-group{
+    background-color: #fff;
+    margin-top:20rpx;
+    width: 100%;
+}
+.myOrder{
+    height: 80rpx;
+    line-height: 80rpx;
+    border-bottom: 1px solid #d9d9d9;
+    margin-left: 22rpx;
+    font-size: 30rpx;
+    display: flex;
+    justify-content: space-between;
+}
+.icon-arrow-right{
+    margin-right: 22rpx;
+    font-size: 24rpx;
+    color: #999;
+}
+.m-uc-menu .list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 24rpx;
+
+}
+
+.m-uc-menu .list .item {
+    flex: 1;
+    text-align: center;
+    margin-top: 30rpx;
+    position: relative;
+}
+
+.m-uc-menu .red-dot {
+    background-color: #db2929;
+    font-size:25rpx;
+    color: #fff;
+    width: 37rpx;
+    height: 37rpx;
+    line-height: 37rpx;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: -11rpx;
+    margin-left: 16rpx;
+    
+}
+
+.m-uc-menu .list .item .txt {
+    display: block;
+    color: #666;
+    font-size: 24rpx;
+    margin-top: 9rpx;
+}
+
+.m-uc-menu .menu-icon {
+    width: 45rpx;
+    height: 45rpx;
+}
+/* 管理员特权按钮 */
+.administrators{
+    
+    margin-top: 22rpx;
+    
+}

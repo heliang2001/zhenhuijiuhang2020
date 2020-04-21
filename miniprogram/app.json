@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/category/category",
+    "pages/basket/basket",
+    "pages/center/center",
+    "pages/search/search",
+    "pages/member/orderList/orderList",
+    "pages/shoppingDetail/shoppingDetail"
+    
+  ],
+  "window": {
+    "backgroundColor": "red",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "真惠酒行",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#d81e06",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "selectedIconPath": "images/主页active.png",
+        "iconPath": "images/主页.png",
+        "pagePath": "pages/index/index",
+        "text": "真惠酒行"
+      },
+      {
+        "selectedIconPath": "images/分类active.png",
+        "iconPath": "images/分类.png",
+        "pagePath": "pages/category/category",
+        "text": "分类"
+      },
+      {
+        "selectedIconPath": "images/购物车active.png",
+        "iconPath": "images/购物车.png",
+        "pagePath": "pages/basket/basket",
+        "text": "购物车"
+      },
+      {
+        "selectedIconPath": "images/个人中心active.png",
+        "iconPath": "images/个人中心.png",
+        "pagePath": "pages/center/center",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

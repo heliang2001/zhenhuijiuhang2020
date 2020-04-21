@@ -1,0 +1,53 @@
+<view class="container">
+    <view class="cart-wrap">
+        <!-- 购物车商品列表 -->
+        <view class="m-cartGroup">
+            <view class="list">
+                <view class="item">
+                    <view class="inner">
+                        <view class="m-good">
+                            <view class="incon-checked" bindtap="inconChecked">
+                                <view class="iconfont icongouxuan" wx:if="{{!inconChecked}}"></view>
+                                <view class="iconfont .icongouxuancopy" style="color:red" wx:else></view>
+                            </view>
+                            <view class="imgWrap" bindtap="toDetailUrl">
+                                <image src="cloud://test-hll666.7465-test-hll666-1300705075/a96059cc874f4a7adebf98b7978a7ef.jpg" mode="widthFix"></image>
+                            </view>
+                            <view class="cnt">
+                                <view class="line1" bindtap="toDetailUrl">Camel骆驼男装 秋冬款新品男士流行纯色可脱卸帽羽绒服外套</view>
+                                <view class="line2">咖啡*M(170/88A)</view>
+                                <view class="line3">￥218.00</view>
+                            </view>
+                            <view class="m-selnum">
+                                <view class="less" bindtap="lessChecked">-</view>
+                                <view class="txt">{{selnum}}</view>
+                                <view class="plus" bindtap="plusChecked">+</view>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <!-- 底部下单框 -->
+        <view class="m-cartFT">
+            <view class="left">
+                <view class="checkAll">
+                    <view class="incon-allchecked" bindtap="inconAllChecked">
+                        <view class="iconfont icongouxuan" wx:if="{{!inconAllChecked}}"></view>
+                        <view class="iconfont icongouxuancopy" style="color:red" wx:else></view>
+                    </view>
+                    <text class="txt">全选</text>
+                </view>
+                <view class="price">
+                    ￥218.00
+                    <text class="prefer">（优惠:0）</text>
+                </view>
+            </view>
+            <view class="right">
+                <navigator url="../order/orderConfirm/orderConfirm" hover-class="navigator-hover">
+                    <view class="btn w-button">下单</view>
+                </navigator>
+            </view>
+        </view>
+    </view>
+</view>

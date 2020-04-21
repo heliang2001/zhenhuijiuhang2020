@@ -1,0 +1,100 @@
+<view class="container">
+	<!-- 顶部搜索栏 -->
+	<view class="m-searchTop">
+		<navigator url="../search/search" hover-class="changestyle">
+			<view class="zw-search-link">
+				<view class="icon-search"></view>
+				<text class="placeholder">点击输入搜索商品</text>
+			</view>
+		</navigator>
+	</view>
+	<!-- 热销白酒 -->
+	<!-- 热销标题 -->
+	<view class="hotGoods">
+		<view class="goodsTitle">
+			<view class="hotTitle">— 热销白酒 —</view>
+			<view class="more">更多 ></view>
+		</view>
+		<!-- 商品列表 -->
+		<view class="goodsList">
+				<view class="goodCard" bindtap="toDetailUrl">
+					<image mode="aspectFit" style="width:{{goodPictureWidth}}px;height:{{goodPictureWidth}}px" src="cloud://test-hll666.7465-test-hll666-1300705075/a96059cc874f4a7adebf98b7978a7ef.jpg" />
+					<view class="goodName">剑南春姊妹酒百年剑南12浓香型白酒500ml</view>
+					<view class="priceSales">
+						<view class="goodPrice">￥99.90</view>
+						<view class="goodSales">已售313瓶</view>
+					</view>
+				</view>
+			
+
+			<view class="goodCard" bindtap="toDetailUrl">
+				<image mode="aspectFit" style="width:{{goodPictureWidth}}px;height:{{goodPictureWidth}}px" src="cloud://test-hll666.7465-test-hll666-1300705075/fd649e9beb17a3ad4817193e59cef20.jpg" />
+				<view class="goodName">剑南春系列绵竹大曲纯粮老酒52度500ml（特惠商品请选择到门店自提）</view>
+				<view class="priceSales">
+					<view class="goodPrice">￥27.90</view>
+					<view class="goodSales">已售4275瓶</view>
+				</view>
+			</view>
+			<view class="goodCard" bindtap="toDetailUrl">
+				<image mode="aspectFit" style="width:{{goodPictureWidth}}px;height:{{goodPictureWidth}}px" src="cloud://test-hll666.7465-test-hll666-1300705075/c1a02405568304527b088df964e145e.jpg" />
+				<view class="goodName">五粮液万事如意中国红浓香型52度500ml</view>
+				<view class="priceSales">
+					<view class="goodPrice">￥128.00</view>
+					<view class="goodSales">已售6085瓶</view>
+				</view>
+			</view>
+			<view class="goodCard" bindtap="toDetailUrl">
+				<image mode="aspectFit" style="width:{{goodPictureWidth}}px;height:{{goodPictureWidth}}px" src="cloud://test-hll666.7465-test-hll666-1300705075/a3020bde4515cd8ed3f5e2a5aaa4b8e.jpg" />
+				<view class="goodName">53度钓鱼台珐琅彩500ml（珍品壹號）</view>
+				<view class="priceSales">
+					<view class="goodPrice">￥990.00</view>
+					<view class="goodSales">已售33组</view>
+				</view>
+			</view>
+		</view>
+	</view>
+
+	<!-- 热销红酒 -->
+	<!-- 热销标题  -->
+	<view class="hotGoods">
+		<view class="goodsTitle">
+			<view class="hotTitle">— 热销红酒 —</view>
+			<view class="more">更多 ></view>
+		</view>
+		<!-- 商品列表 -->
+		<view class="goodsList">
+			<view class="goodCard" bindtap="toDetailUrl">
+				<image mode="aspectFit" style="width:{{goodPictureWidth}}px;height:{{goodPictureWidth}}px" src="cloud://test-hll666.7465-test-hll666-1300705075/a96c2d475d6caa0f5d5e3a092c85f15.jpg" />
+				<view class="goodName">澳大利亚澳曼拉Z850梅洛干红葡萄酒14度750ml</view>
+				<view class="priceSales">
+					<view class="goodPrice">￥256.00</view>
+					<view class="goodSales">已售194提</view>
+				</view>
+			</view>
+			<view class="goodCard" bindtap="toDetailUrl">
+				<image mode="aspectFit" style="width:{{goodPictureWidth}}px;height:{{goodPictureWidth}}px" src="cloud://test-hll666.7465-test-hll666-1300705075/5d7709b4f9dd12c79c2c19e89acc245.jpg" />
+				<view class="goodName">西班牙进口唇醇之恋红起泡无醇葡萄酒750ml</view>
+				<view class="priceSales">
+					<view class="goodPrice">￥39.90</view>
+					<view class="goodSales">已售1250瓶</view>
+				</view>
+			</view>
+			<view class="goodCard" bindtap="toDetailUrl">
+				<image mode="aspectFit" style="width:{{goodPictureWidth}}px;height:{{goodPictureWidth}}px" src="cloud://test-hll666.7465-test-hll666-1300705075/d3b49ccb39710f2a3ec9cde48822f58.jpg" />
+				<view class="goodName">澳洲进口奔富集团洛神山庄干红葡萄酒750ml</view>
+				<view class="priceSales">
+					<view class="goodPrice">￥34.90</view>
+					<view class="goodSales">已售3215瓶</view>
+				</view>
+			</view>
+			<view class="goodCard" bindtap="toDetailUrl">
+				<image mode="aspectFit" style="width:{{goodPictureWidth}}px;height:{{goodPictureWidth}}px" src="cloud://test-hll666.7465-test-hll666-1300705075/3658304785dc283ce3adb25695f7974.jpg" />
+				<view class="goodName">拉菲传奇波尔多法定产区干红葡萄酒750ml【特惠商品仅限门店自提】</view>
+				<view class="priceSales">
+					<view class="goodPrice">￥64.90</view>
+					<view class="goodSales">已售512瓶</view>
+				</view>
+			</view>
+		</view>
+	</view>
+</view>

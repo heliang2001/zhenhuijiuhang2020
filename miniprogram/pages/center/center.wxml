@@ -1,0 +1,62 @@
+<view class="container">
+    <!-- 头部 -->
+    <view class="head">
+        <image class="avatar" src="../../images/head.png"></image>
+        <view class="info">
+            <view class="nickname">zhenhui10000</view>
+            <view class="membershipLevel">
+                <text class="memberTitle1">酒客</text>
+            </view>
+            <view class="icon ion-ios-arrow-right top_right"></view>
+        </view>
+    </view>
+    <!-- 我的订单 -->
+    <view class="myOrder-group">
+        <view class="myOrder">
+            <text class="txt">我的订单</text>
+            <navigator url="../member/orderList/orderList">
+            <view class="icon-arrow-right">查看全部订单></view>
+            </navigator>
+            
+        </view>
+        <view class="m-uc-menu">
+            <view class="list">
+                <view class="item">
+                    <navigator url="../member/orderList/orderList">
+                        <image class="menu-icon" src="http://img02.camel.com.cn/image/zwuc_icon1.png" alt=""></image>
+                        <text class="txt">待付款</text>
+                        <text class="red-dot">0</text>
+                    </navigator>
+                </view>
+                <view class="item">
+                    <navigator url="../member/orderList/orderList">
+                        <image class="menu-icon" src="http://img02.camel.com.cn/image/zwuc_icon2.png" alt=""></image>
+                        <text class="txt">待发货</text>
+                        <text class="red-dot">0</text>
+                    </navigator>
+                </view>
+                <view class="item">
+                    <navigator url="../member/orderList/orderList">
+                        <image class="menu-icon" src="http://img02.camel.com.cn/image/zwuc_icon3.png" alt=""></image>
+                        <text class="txt">已发货</text>
+                        <text class="red-dot">0</text>
+                    </navigator>
+                </view>
+                <view class="item">
+                    <navigator url="../member/orderList/orderList">
+                        <image class="menu-icon" src="http://img02.camel.com.cn/image/zwuc_icon4.png" alt=""></image>
+                        <text class="txt">待评价</text>
+                        <text class="red-dot">0</text>
+                    </navigator>
+                </view>
+                <view class="item">
+                    <navigator url="../member/orderList/orderList">
+                        <image class="menu-icon" src="http://img02.camel.com.cn/image/zwuc_icon5.png" alt=""></image>
+                        <text class="txt">退款/售后</text>
+                    </navigator>
+                </view>
+            </view>
+        </view>
+    </view>
+    <button class="administrators" type="primary">增删改商品</button>
+</view>

@@ -1,0 +1,4 @@
+/* pages/member/orderList/orderList.wxss */
+.ic{
+    color: red;
+}
