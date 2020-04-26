@@ -1,0 +1,6 @@
+<!-- pages/login/login.wxml -->
+<view class="login">
+    <view class="tips">授权后才能使用更多功能哦!</view>
+    <button type="primary" open-type="getUserInfo" bindgetuserinfo="onGetuserInfoTap">微信登录</button>
+    <button>返回</button>
+</view>

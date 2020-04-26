@@ -6,7 +6,8 @@
     "pages/center/center",
     "pages/search/search",
     "pages/member/orderList/orderList",
-    "pages/shoppingDetail/shoppingDetail"
+    "pages/shoppingDetail/shoppingDetail",
+    "pages/login/login"
     
   ],
   "window": {

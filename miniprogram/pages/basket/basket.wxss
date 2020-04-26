@@ -1,3 +1,4 @@
+@import '../../assets/fonts/iconfont.wxss';
 .container{
 background-color: #f0f0f0;
 }

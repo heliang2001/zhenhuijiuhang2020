@@ -1,11 +1,11 @@
 <view class="container">
     <!-- 头部 -->
-    <view class="head">
-        <image class="avatar" src="../../images/head.png"></image>
+    <view class="head" bindtap="login">
+        <image class="avatar" src="{{avatarUrl}}"></image>
         <view class="info">
-            <view class="nickname">zhenhui10000</view>
+            <view class="nickname">{{nickName}}</view>
             <view class="membershipLevel">
-                <text class="memberTitle1">酒客</text>
+                <text class="memberTitle1">{{city}}</text>
             </view>
             <view class="icon ion-ios-arrow-right top_right"></view>
         </view>

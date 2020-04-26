@@ -1,0 +1,14 @@
+.login{
+    padding: 0 40rpx;
+    height: 100%;
+    width: 100%;
+}
+.tips{
+    margin-top: 100rpx;
+    color: #646464;
+    text-align: center;
+}
+.login button{
+    width: 100%;
+    margin-top: 20rpx;
+}

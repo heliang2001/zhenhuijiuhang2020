@@ -1,4 +1,4 @@
-// pages/center/center.js
+// pages/login/login.js
 const app=getApp();
 Page({
 
@@ -6,48 +6,27 @@ Page({
    * 页面的初始数据
    */
   data: {
-    avatarUrl: '../../images/head.png',
-    nickName:'<-微信登录',
-    city:''
+
   },
-  // 如果未登录就跳转到登录界面
-  login(){
-    if (app.is_login()) {
-      console.log("用户已登录");
-      
-    } else {
-      wx.navigateTo({
-        url: '../login/login',
-      })
+  onGetuserInfoTap(event) {
+    const userInfo=event.detail.userInfo;
+    if(userInfo){
+      app.globalData.userInfo=userInfo;
+      wx.navigateBack({})
     }
+  },
+  // 不授权就返回到center页
+  goBack(){
+    wx.navigateBack({})
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    
+
   },
- // 调取登录信息 
- loadUserInfo(){
-  wx.getSetting({
-    success: (res) => {
-      if (res.authSetting["scope.userInfo"]) {
-        wx.getUserInfo({
-          success: (res) => {
-            app.globalData.userInfo=res.userInfo
-            console.log(res.userInfo)
-            this.setData({
-              avatarUrl:res.userInfo.avatarUrl,
-              nickName:res.userInfo.nickName,
-              city:res.userInfo.city
-            })
-          },
-        })
-      }
-    },
-  })
-},
+
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
@@ -59,7 +38,7 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-    this.loadUserInfo()
+
   },
 
   /**

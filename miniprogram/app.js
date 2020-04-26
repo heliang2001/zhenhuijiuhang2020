@@ -16,7 +16,18 @@ App({
     }
 
     this.globalData = {
-      systemInfo : wx.getSystemInfoSync()//系统信息
+      systemInfo : wx.getSystemInfoSync(),//系统信息
+      
+    }
+  },
+ 
+  // 判断是否登录
+  is_login(){
+    if (this.globalData.userInfo) {
+      console.log(this.globalData.userInfo)
+      return true
+    } else {
+      return false
     }
   }
   

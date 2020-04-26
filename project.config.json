@@ -68,6 +68,13 @@
 					"id": -1,
 					"name": "shoppingDetail",
 					"pathName": "pages/shoppingDetail/shoppingDetail",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "login",
+					"pathName": "pages/login/login",
 					"scene": null
 				}
 			]

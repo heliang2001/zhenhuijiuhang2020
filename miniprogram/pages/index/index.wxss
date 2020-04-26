@@ -76,11 +76,22 @@ page {
   box-sizing: border-box;
   
 }
+/* 微信小程序text文本溢出单行/多行省略：
+display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1; */
 .goodCard .goodName{
   padding: 10rpx;
-  height: 90rpx;
+  height: 85rpx;
   overflow: hidden;
   text-overflow:ellipsis;
+  display: -webkit-box;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
 }
 .priceSales{
   display: flex;
